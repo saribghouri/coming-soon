@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* font-family: "Karma", sans-serif; */
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Inconsolata", sans-serif;
+  margin: 0;
+  height: 100%;
+  color: white;
+}
+.main-div {
+  background-image: url(img/forestbridge.jpg);
+  height: 961px;
+  background-size: cover;
+  min-height: 100%;
+  background-position: center;
+  color: white;
+  animation: opac 0.8s;
+  position: relative;
+}
+.second-main-div {
+  padding: 12px 24px;
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+}
+.hd-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: verdana, sans-serif;
+}
+.h1-class {
+  font-size: 64px;
+  position: animatetop 0.4s;
+  font-family: "raleway", sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  color: white;
+}
+.hr-class {
+  margin: auto;
+  width: 40%;
+  border-color: gray;
+  border: 0;
+  border-top: 1px solid #eee;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  color: white;
+}
+.prg-class {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+.link-div {
+  padding: 12px 24px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+}
+a {
+  color: inherit;
+  background-color: transparent;
+}
